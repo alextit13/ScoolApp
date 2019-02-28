@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pict"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.a080218_00.myapplication_exam.razdel5"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:alpha="0.6"
+        android:background="@color/colorPrimary"
+        android:text="@string/razdel5_1"
+        android:textColor="@color/snow" />
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:onClick="onClick"
+        android:alpha="0.6"
+        android:background="@color/colorPrimary"
+        android:text="@string/razdel5_2"
+        android:textColor="@color/snow" />
+
+    <Button
+        android:id="@+id/button53"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="180dp"
+        android:onClick="onClick"
+        android:alpha="0.6"
+        android:background="@color/colorPrimary"
+        android:text="@string/razdel5_3"
+        android:textColor="@color/snow" />
+
+    <Button
+        android:id="@+id/button54"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="260dp"
+        android:onClick="onClick"
+        android:alpha="0.6"
+        android:background="@color/colorPrimary"
+        android:text="@string/razdel5_4"
+        android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button55"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="340dp"
+            android:onClick="onClick"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:text="@string/razdel5_5"
+            android:textColor="@color/snow" />
+        <Button
+            android:id="@+id/button56"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="420dp"
+            android:onClick="onClick"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:text="@string/razdel5_6"
+            android:textColor="@color/snow" />
+        <Button
+            android:id="@+id/button57"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="500dp"
+            android:onClick="onClick"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:text="@string/razdel5_7"
+            android:textColor="@color/snow" />
+        <Button
+            android:id="@+id/button58"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="580dp"
+            android:onClick="onClick"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:text="@string/razdel5_8"
+            android:textColor="@color/snow" />
+        <Button
+            android:id="@+id/button59"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="660dp"
+            android:onClick="onClick"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:text="@string/razdel5_9"
+            android:textColor="@color/snow" />
+        <Button
+            android:id="@+id/button5_10"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="740dp"
+            android:onClick="onClick"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:text="@string/razdel5_10"
+            android:textColor="@color/snow" />
+
+    </RelativeLayout>
+</ScrollView>
+

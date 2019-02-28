@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pict"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.a080218_00.myapplication_exam.razdel3"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_1"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="80dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_2"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="140dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_3"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="200dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_4"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="260dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_5"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="320dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_6"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="380dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_7"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button38"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="440dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_8"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button39"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="500dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_9"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button3_10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="560dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_10"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button3_11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="620dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_11"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button3_12"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="680dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_12"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button3_13"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="740dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_13"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button3_14"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="800dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_14"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button3_15"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="860dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_15"
+            android:textColor="@color/snow" />
+
+        <Button
+            android:id="@+id/button3_16"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="920dp"
+            android:alpha="0.6"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:text="@string/razdel3_16"
+            android:textColor="@color/snow" />
+    </RelativeLayout>
+</ScrollView>
+
