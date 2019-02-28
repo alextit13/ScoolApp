@@ -2,5 +2,6 @@
 <ListView
     android:id="@+id/search_result_list"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/pict"
     android:layout_width="match_parent"
     android:layout_height="match_parent"/>

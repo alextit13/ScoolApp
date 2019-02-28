@@ -7,18 +7,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
 import com.example.a080218_00.myapplication_exam.R;
 import com.example.a080218_00.myapplication_exam.WebActivity;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class SearchResultActivity extends AppCompatActivity {
 
     public static final String URL = "com.defs.myapplication.URL";
+    private static final String MAIN_PART_OF_PATH = "file:///android_asset/";
 
     private ListView listSearchResult;
-    private SearchResultAdapter adapter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -35,8 +33,7 @@ public class SearchResultActivity extends AppCompatActivity {
     }
 
     private void initAdapter() {
-        adapter = new SearchResultAdapter(SearchDataHolder.searchResultList, getLayoutInflater());
-        listSearchResult.setAdapter(adapter);
+        listSearchResult.setAdapter(new SearchResultAdapter(SearchDataHolder.searchResultList, getLayoutInflater()));
     }
 
     private void initListener() {
@@ -44,7 +41,7 @@ public class SearchResultActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(SearchResultActivity.this, WebActivity.class);
-                intent.putExtra(URL, "file:///android_asset/" + SearchDataHolder.searchResultList.get(i).getLink());
+                intent.putExtra(URL, MAIN_PART_OF_PATH + SearchDataHolder.searchResultList.get(i).getLink());
                 startActivity(intent);
             }
         });

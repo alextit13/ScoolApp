@@ -22,23 +22,11 @@ public class WebActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
-        // Get URL parameter from main activity
         Intent intent = getIntent();
         String url = intent.getStringExtra(razdel1.URL);
-       /* String url1 = intent.getStringExtra(razdel2.URL);
-        String url2 = intent.getStringExtra(razdel3.URL);
-        String url3 = intent.getStringExtra(razdel4.URL);
-        String url4 = intent.getStringExtra(razdel5.URL);
-        String url5 = intent.getStringExtra(razdel6.URL);*/
-        // Load local html file from received URL value
         WebView wv = findViewById(R.id.webviewer);
         wv.getSettings().setJavaScriptEnabled(true);
         wv.loadUrl(url);
-        /*wv.loadUrl(url1);
-        wv.loadUrl(url2);
-        wv.loadUrl(url3);
-        wv.loadUrl(url4);
-        wv.loadUrl(url5);*/
     }
 
     @Override
