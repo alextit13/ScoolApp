@@ -81,4 +81,5 @@
     <string name="Search_menu">search</string>
     <string name="add_in_fav">добавить в закладки</string>
     <string name="table_res">Таблица результатов</string>
+    <string name="lbl_title_activity_search_result">Поиск</string>
 </resources>

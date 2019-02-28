@@ -50,6 +50,9 @@
             android:name=".favorite"
             android:label="@string/title_fav"
             />
+        <activity android:name=".search.SearchResultActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/lbl_title_activity_search_result"/>
     </application>
 
 </manifest>

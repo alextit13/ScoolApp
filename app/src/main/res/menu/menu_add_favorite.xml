@@ -5,6 +5,5 @@
         android:id="@+id/menu_add"
         android:enabled="true"
         android:title="@string/add_in_fav"
-        app:showAsAction="never"
-        />
+        app:showAsAction="never" />
 </menu>
