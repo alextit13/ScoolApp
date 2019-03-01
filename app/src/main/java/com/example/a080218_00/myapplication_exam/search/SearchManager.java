@@ -74,8 +74,4 @@ public class SearchManager implements ISearchManager {
         searchEntity.setDataText(resultText);
         return searchEntity;
     }
-
-    public List<SearchEntity> searchResult() {
-        return null;
-    }
 }

@@ -7,6 +7,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.example.a080218_00.myapplication_exam.R;
+import com.example.a080218_00.myapplication_exam.StringConcatenateController;
 
 import java.util.List;
 
@@ -39,7 +40,8 @@ public class SearchResultAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         View rootView = inflater.inflate(R.layout.item_search_result, viewGroup, false);
         ((TextView) rootView.findViewById(R.id.item_search_result_tv))
-                .setText(getItem(i).getLink());
+                .setText(StringConcatenateController
+                        .formatString(listSearchResult.get(i).getLink()));
         return rootView;
     }
 }

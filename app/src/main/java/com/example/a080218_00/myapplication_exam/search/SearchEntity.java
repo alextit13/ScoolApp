@@ -8,20 +8,14 @@ import java.util.Objects;
 public class SearchEntity implements Serializable {
 
     /*
-    * Object, that is search item result.
-    */
+     * Object, that is search item result.
+     */
 
     private int id;
     private String dataText;
     private String link;
 
-    public SearchEntity() {
-    }
-
-    public SearchEntity(int id, String title, String link) {
-        this.id = id;
-        this.dataText = title;
-        this.link = link;
+    SearchEntity() {
     }
 
     public int getId() {
@@ -40,11 +34,11 @@ public class SearchEntity implements Serializable {
         this.dataText = dataText;
     }
 
-    public String getLink() {
+    String getLink() {
         return link;
     }
 
-    public void setLink(String link) {
+    void setLink(String link) {
         this.link = link;
     }
 

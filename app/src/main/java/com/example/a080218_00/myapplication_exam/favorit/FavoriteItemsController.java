@@ -1,7 +1,6 @@
 package com.example.a080218_00.myapplication_exam.favorit;
 
 import android.content.Context;
-
 import java.util.ArrayList;
 import java.util.List;
 
